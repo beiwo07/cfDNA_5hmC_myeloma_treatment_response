@@ -5,7 +5,9 @@ This project is part of my doctoral dissertation, which is steadily taking shape
 <img src="poster.png" width="1000">
 
 
+## **Citation**  
 
+> Wang, B., Derman, B. A., Zhang, Z., Kowitwanich, K., Cursio, J. F., Appelbaum, D., ... & Chiu, B. (2024). Identifying 5-Hydroxymethylcytosine Signatures in Circulating Cell-Free DNA and Treatment Response in Multiple Myeloma with a Multi-Step Machine Learning Approach. Blood, 144, 3336.
 
 
 
