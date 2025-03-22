@@ -54,6 +54,9 @@ We developed a 25-gene 5hmC marker panel based on cfDNA that predicts response t
 
 > Wang, B., Derman, B. A., Zhang, Z., Kowitwanich, K., Cursio, J. F., Appelbaum, D., ... & Chiu, B. (2024). Identifying 5-Hydroxymethylcytosine Signatures in Circulating Cell-Free DNA and Treatment Response in Multiple Myeloma with a Multi-Step Machine Learning Approach. Blood, 144, 3336.
 
+## Project organization
+
+```
 .
 ├── data/                              : contains raw data (not visible) 
 ├── logs/                              : contains logs output from high-performance cluster 
@@ -62,7 +65,7 @@ We developed a 25-gene 5hmC marker panel based on cfDNA that predicts response t
 ├── res/                               : contains results from high-performance cluster 
 ├── sbatch/                            : contains scripts to be submitted as slurm jobs 
 
-
-
+.
+```
 
 
