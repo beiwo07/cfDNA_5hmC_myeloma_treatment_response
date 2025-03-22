@@ -1,0 +1,335 @@
+Conda environment: *
+R version 4.3.1 (2023-06-16)
+Platform: x86_64-conda-linux-gnu (64-bit)
+Running under: Red Hat Enterprise Linux 8.3 (Ootpa)
+
+Matrix products: default
+BLAS/LAPACK: /ess/home/home1/beiw/miniconda3/envs/5hmc_os_env/lib/libopenblasp-r0.3.27.so;  LAPACK version 3.12.0
+
+locale:
+[1] C
+
+time zone: America/Chicago
+tzcode source: system (glibc)
+
+attached base packages:
+[1] stats4    stats     graphics  grDevices utils     datasets  methods  
+[8] base     
+
+other attached packages:
+ [1] conflicted_1.2.0            DESeq2_1.40.2              
+ [3] SummarizedExperiment_1.30.2 Biobase_2.60.0             
+ [5] MatrixGenerics_1.12.2       matrixStats_1.2.0          
+ [7] GenomicRanges_1.52.0        GenomeInfoDb_1.36.1        
+ [9] IRanges_2.34.1              S4Vectors_0.38.1           
+[11] BiocGenerics_0.46.0         glmnet_4.1-8               
+[13] Matrix_1.6-5                mlr3learners_0.5.8         
+[15] mlr3tuning_0.19.0           paradox_0.11.1             
+[17] mlr3_0.19.0                 lubridate_1.9.3            
+[19] forcats_1.0.0               stringr_1.5.1              
+[21] purrr_1.0.2                 readr_2.1.5                
+[23] tidyr_1.3.1                 tibble_3.2.1               
+[25] ggplot2_3.4.4               tidyverse_2.0.0            
+[27] dplyr_1.1.4                
+
+loaded via a namespace (and not attached):
+ [1] gtable_0.3.4            shape_1.4.6             lattice_0.21-9         
+ [4] tzdb_0.4.0              bitops_1.0-7            vctrs_0.6.4            
+ [7] tools_4.3.1             generics_0.1.3          parallel_4.3.1         
+[10] fansi_1.0.5             pkgconfig_2.0.3         data.table_1.15.2      
+[13] checkmate_2.3.1         uuid_1.1-1              GenomeInfoDbData_1.2.11
+[16] lifecycle_1.0.3         compiler_4.3.1          munsell_0.5.0          
+[19] RhpcBLASctl_0.23-42     codetools_0.2-20        bbotk_0.7.2            
+[22] RCurl_1.98-1.12         pillar_1.9.0            crayon_1.5.2           
+[25] BiocParallel_1.34.2     cachem_1.0.8            DelayedArray_0.26.6    
+[28] iterators_1.0.14        foreach_1.5.2           parallelly_1.37.1      
+[31] locfit_1.5-9.8          tidyselect_1.2.0        digest_0.6.35          
+[34] stringi_1.7.12          future_1.33.2           listenv_0.9.1          
+[37] splines_4.3.1           fastmap_1.1.1           grid_4.3.1             
+[40] colorspace_2.1-0        cli_3.6.1               magrittr_2.0.3         
+[43] S4Arrays_1.0.4          survival_3.5-7          utf8_1.2.4             
+[46] withr_2.5.1             scales_1.2.1            backports_1.4.1        
+[49] timechange_0.2.0        XVector_0.40.0          globals_0.16.3         
+[52] hms_1.1.3               memoise_2.0.1           mlr3misc_0.15.0        
+[55] rlang_1.1.1             Rcpp_1.0.11             glue_1.6.2             
+[58] palmerpenguins_0.1.1    lgr_0.4.4               R6_2.5.1               
+[61] zlibbioc_1.46.0        
+INFO  [11:56:36.627] [bbotk] Starting to optimize 1 parameter(s) with '<TunerGridSearch>' and '<TerminatorNone>'
+INFO  [11:56:36.652] [bbotk] Evaluating 1 configuration(s)
+INFO  [11:56:36.685] [mlr3] Running benchmark with 5 resampling iterations
+INFO  [11:56:36.719] [mlr3] Applying learner 'classif.cv_glmnet' on task 'candi_gene' (iter 1/5)
+INFO  [11:56:37.424] [mlr3] Applying learner 'classif.cv_glmnet' on task 'candi_gene' (iter 2/5)
+INFO  [11:56:37.622] [mlr3] Applying learner 'classif.cv_glmnet' on task 'candi_gene' (iter 3/5)
+INFO  [11:56:37.835] [mlr3] Applying learner 'classif.cv_glmnet' on task 'candi_gene' (iter 4/5)
+INFO  [11:56:38.032] [mlr3] Applying learner 'classif.cv_glmnet' on task 'candi_gene' (iter 5/5)
+INFO  [11:56:38.223] [mlr3] Finished benchmark
+INFO  [11:56:38.251] [bbotk] Result of batch 1:
+INFO  [11:56:38.255] [bbotk]  alpha classif.auc warnings errors runtime_learners
+INFO  [11:56:38.255] [bbotk]    0.4   0.5892512        0      0            1.457
+INFO  [11:56:38.255] [bbotk]                                 uhash
+INFO  [11:56:38.255] [bbotk]  c6b2bbf8-88ae-4d7d-91f3-6403c933e98a
+INFO  [11:56:38.257] [bbotk] Evaluating 1 configuration(s)
+INFO  [11:56:38.280] [mlr3] Running benchmark with 5 resampling iterations
+INFO  [11:56:38.285] [mlr3] Applying learner 'classif.cv_glmnet' on task 'candi_gene' (iter 1/5)
+INFO  [11:56:38.527] [mlr3] Applying learner 'classif.cv_glmnet' on task 'candi_gene' (iter 2/5)
+INFO  [11:56:38.763] [mlr3] Applying learner 'classif.cv_glmnet' on task 'candi_gene' (iter 3/5)
+INFO  [11:56:38.997] [mlr3] Applying learner 'classif.cv_glmnet' on task 'candi_gene' (iter 4/5)
+INFO  [11:56:39.226] [mlr3] Applying learner 'classif.cv_glmnet' on task 'candi_gene' (iter 5/5)
+INFO  [11:56:39.451] [mlr3] Finished benchmark
+INFO  [11:56:39.477] [bbotk] Result of batch 2:
+INFO  [11:56:39.479] [bbotk]  alpha classif.auc warnings errors runtime_learners
+INFO  [11:56:39.479] [bbotk]   0.15   0.6582855        0      0            1.123
+INFO  [11:56:39.479] [bbotk]                                 uhash
+INFO  [11:56:39.479] [bbotk]  edea8f71-22cd-4b17-a64a-3b1bfda7b895
+INFO  [11:56:39.481] [bbotk] Evaluating 1 configuration(s)
+INFO  [11:56:39.504] [mlr3] Running benchmark with 5 resampling iterations
+INFO  [11:56:39.509] [mlr3] Applying learner 'classif.cv_glmnet' on task 'candi_gene' (iter 1/5)
+INFO  [11:56:39.702] [mlr3] Applying learner 'classif.cv_glmnet' on task 'candi_gene' (iter 2/5)
+INFO  [11:56:39.898] [mlr3] Applying learner 'classif.cv_glmnet' on task 'candi_gene' (iter 3/5)
+INFO  [11:56:40.099] [mlr3] Applying learner 'classif.cv_glmnet' on task 'candi_gene' (iter 4/5)
+INFO  [11:56:40.289] [mlr3] Applying learner 'classif.cv_glmnet' on task 'candi_gene' (iter 5/5)
+INFO  [11:56:40.476] [mlr3] Finished benchmark
+INFO  [11:56:40.502] [bbotk] Result of batch 3:
+INFO  [11:56:40.504] [bbotk]  alpha classif.auc warnings errors runtime_learners
+INFO  [11:56:40.504] [bbotk]   0.55   0.6113527        0      0             0.92
+INFO  [11:56:40.504] [bbotk]                                 uhash
+INFO  [11:56:40.504] [bbotk]  0b5deb5b-0f38-4212-8e1f-adb732b42c25
+INFO  [11:56:40.505] [bbotk] Evaluating 1 configuration(s)
+INFO  [11:56:40.529] [mlr3] Running benchmark with 5 resampling iterations
+INFO  [11:56:40.533] [mlr3] Applying learner 'classif.cv_glmnet' on task 'candi_gene' (iter 1/5)
+INFO  [11:56:41.117] [mlr3] Applying learner 'classif.cv_glmnet' on task 'candi_gene' (iter 2/5)
+INFO  [11:56:41.309] [mlr3] Applying learner 'classif.cv_glmnet' on task 'candi_gene' (iter 3/5)
+INFO  [11:56:41.517] [mlr3] Applying learner 'classif.cv_glmnet' on task 'candi_gene' (iter 4/5)
+INFO  [11:56:41.708] [mlr3] Applying learner 'classif.cv_glmnet' on task 'candi_gene' (iter 5/5)
+INFO  [11:56:41.889] [mlr3] Finished benchmark
+INFO  [11:56:41.914] [bbotk] Result of batch 4:
+INFO  [11:56:41.916] [bbotk]  alpha classif.auc warnings errors runtime_learners
+INFO  [11:56:41.916] [bbotk]   0.45    0.619686        0      0            1.312
+INFO  [11:56:41.916] [bbotk]                                 uhash
+INFO  [11:56:41.916] [bbotk]  5f51cda4-33ce-4159-847c-ef2cfd62175a
+INFO  [11:56:41.917] [bbotk] Evaluating 1 configuration(s)
+INFO  [11:56:41.940] [mlr3] Running benchmark with 5 resampling iterations
+INFO  [11:56:41.945] [mlr3] Applying learner 'classif.cv_glmnet' on task 'candi_gene' (iter 1/5)
+INFO  [11:56:42.368] [mlr3] Applying learner 'classif.cv_glmnet' on task 'candi_gene' (iter 2/5)
+INFO  [11:56:42.781] [mlr3] Applying learner 'classif.cv_glmnet' on task 'candi_gene' (iter 3/5)
+INFO  [11:56:43.158] [mlr3] Applying learner 'classif.cv_glmnet' on task 'candi_gene' (iter 4/5)
+INFO  [11:56:43.585] [mlr3] Applying learner 'classif.cv_glmnet' on task 'candi_gene' (iter 5/5)
+INFO  [11:56:43.991] [mlr3] Finished benchmark
+INFO  [11:56:44.017] [bbotk] Result of batch 5:
+INFO  [11:56:44.019] [bbotk]  alpha classif.auc warnings errors runtime_learners
+INFO  [11:56:44.019] [bbotk]      0    0.547343        0      0            2.006
+INFO  [11:56:44.019] [bbotk]                                 uhash
+INFO  [11:56:44.019] [bbotk]  59bc2981-6b37-460e-ac2a-72be7d57adb9
+INFO  [11:56:44.020] [bbotk] Evaluating 1 configuration(s)
+INFO  [11:56:44.043] [mlr3] Running benchmark with 5 resampling iterations
+INFO  [11:56:44.048] [mlr3] Applying learner 'classif.cv_glmnet' on task 'candi_gene' (iter 1/5)
+INFO  [11:56:44.300] [mlr3] Applying learner 'classif.cv_glmnet' on task 'candi_gene' (iter 2/5)
+INFO  [11:56:44.543] [mlr3] Applying learner 'classif.cv_glmnet' on task 'candi_gene' (iter 3/5)
+INFO  [11:56:44.793] [mlr3] Applying learner 'classif.cv_glmnet' on task 'candi_gene' (iter 4/5)
+INFO  [11:56:45.033] [mlr3] Applying learner 'classif.cv_glmnet' on task 'candi_gene' (iter 5/5)
+INFO  [11:56:45.265] [mlr3] Finished benchmark
+INFO  [11:56:45.290] [bbotk] Result of batch 6:
+INFO  [11:56:45.292] [bbotk]  alpha classif.auc warnings errors runtime_learners
+INFO  [11:56:45.292] [bbotk]    0.1   0.6509484        0      0            1.173
+INFO  [11:56:45.292] [bbotk]                                 uhash
+INFO  [11:56:45.292] [bbotk]  2ac8a87e-7a3f-4f69-9061-19109cfc3845
+INFO  [11:56:45.294] [bbotk] Evaluating 1 configuration(s)
+INFO  [11:56:45.317] [mlr3] Running benchmark with 5 resampling iterations
+INFO  [11:56:45.321] [mlr3] Applying learner 'classif.cv_glmnet' on task 'candi_gene' (iter 1/5)
+INFO  [11:56:45.516] [mlr3] Applying learner 'classif.cv_glmnet' on task 'candi_gene' (iter 2/5)
+INFO  [11:56:45.704] [mlr3] Applying learner 'classif.cv_glmnet' on task 'candi_gene' (iter 3/5)
+INFO  [11:56:45.889] [mlr3] Applying learner 'classif.cv_glmnet' on task 'candi_gene' (iter 4/5)
+INFO  [11:56:46.082] [mlr3] Applying learner 'classif.cv_glmnet' on task 'candi_gene' (iter 5/5)
+INFO  [11:56:46.268] [mlr3] Finished benchmark
+INFO  [11:56:46.292] [bbotk] Result of batch 7:
+INFO  [11:56:46.294] [bbotk]  alpha classif.auc warnings errors runtime_learners
+INFO  [11:56:46.294] [bbotk]      1   0.6116742        0      0            0.903
+INFO  [11:56:46.294] [bbotk]                                 uhash
+INFO  [11:56:46.294] [bbotk]  b780ebcf-1a41-45ce-9afb-360caa84a926
+INFO  [11:56:46.296] [bbotk] Evaluating 1 configuration(s)
+INFO  [11:56:46.319] [mlr3] Running benchmark with 5 resampling iterations
+INFO  [11:56:46.324] [mlr3] Applying learner 'classif.cv_glmnet' on task 'candi_gene' (iter 1/5)
+INFO  [11:56:46.511] [mlr3] Applying learner 'classif.cv_glmnet' on task 'candi_gene' (iter 2/5)
+INFO  [11:56:46.699] [mlr3] Applying learner 'classif.cv_glmnet' on task 'candi_gene' (iter 3/5)
+INFO  [11:56:46.885] [mlr3] Applying learner 'classif.cv_glmnet' on task 'candi_gene' (iter 4/5)
+INFO  [11:56:47.070] [mlr3] Applying learner 'classif.cv_glmnet' on task 'candi_gene' (iter 5/5)
+INFO  [11:56:47.250] [mlr3] Finished benchmark
+INFO  [11:56:47.274] [bbotk] Result of batch 8:
+INFO  [11:56:47.276] [bbotk]  alpha classif.auc warnings errors runtime_learners
+INFO  [11:56:47.276] [bbotk]    0.7   0.6175121        0      0            0.882
+INFO  [11:56:47.276] [bbotk]                                 uhash
+INFO  [11:56:47.276] [bbotk]  067bb6e4-8e74-4dec-9705-032a438ae64d
+INFO  [11:56:47.277] [bbotk] Evaluating 1 configuration(s)
+INFO  [11:56:47.301] [mlr3] Running benchmark with 5 resampling iterations
+INFO  [11:56:47.305] [mlr3] Applying learner 'classif.cv_glmnet' on task 'candi_gene' (iter 1/5)
+INFO  [11:56:47.537] [mlr3] Applying learner 'classif.cv_glmnet' on task 'candi_gene' (iter 2/5)
+INFO  [11:56:47.755] [mlr3] Applying learner 'classif.cv_glmnet' on task 'candi_gene' (iter 3/5)
+INFO  [11:56:47.981] [mlr3] Applying learner 'classif.cv_glmnet' on task 'candi_gene' (iter 4/5)
+INFO  [11:56:48.198] [mlr3] Applying learner 'classif.cv_glmnet' on task 'candi_gene' (iter 5/5)
+INFO  [11:56:48.411] [mlr3] Finished benchmark
+INFO  [11:56:48.437] [bbotk] Result of batch 9:
+INFO  [11:56:48.439] [bbotk]  alpha classif.auc warnings errors runtime_learners
+INFO  [11:56:48.439] [bbotk]    0.2   0.6800104        0      0            1.064
+INFO  [11:56:48.439] [bbotk]                                 uhash
+INFO  [11:56:48.439] [bbotk]  45cf2063-b3cc-4a4d-899e-e491d592c81e
+INFO  [11:56:48.440] [bbotk] Evaluating 1 configuration(s)
+INFO  [11:56:48.463] [mlr3] Running benchmark with 5 resampling iterations
+INFO  [11:56:48.468] [mlr3] Applying learner 'classif.cv_glmnet' on task 'candi_gene' (iter 1/5)
+INFO  [11:56:48.677] [mlr3] Applying learner 'classif.cv_glmnet' on task 'candi_gene' (iter 2/5)
+INFO  [11:56:48.880] [mlr3] Applying learner 'classif.cv_glmnet' on task 'candi_gene' (iter 3/5)
+INFO  [11:56:49.099] [mlr3] Applying learner 'classif.cv_glmnet' on task 'candi_gene' (iter 4/5)
+INFO  [11:56:49.297] [mlr3] Applying learner 'classif.cv_glmnet' on task 'candi_gene' (iter 5/5)
+INFO  [11:56:49.493] [mlr3] Finished benchmark
+INFO  [11:56:49.518] [bbotk] Result of batch 10:
+INFO  [11:56:49.520] [bbotk]  alpha classif.auc warnings errors runtime_learners
+INFO  [11:56:49.520] [bbotk]   0.35   0.6419123        0      0             0.98
+INFO  [11:56:49.520] [bbotk]                                 uhash
+INFO  [11:56:49.520] [bbotk]  2a5a11b2-1419-4dce-9ff0-76577be9cf59
+INFO  [11:56:49.521] [bbotk] Evaluating 1 configuration(s)
+INFO  [11:56:49.545] [mlr3] Running benchmark with 5 resampling iterations
+INFO  [11:56:49.549] [mlr3] Applying learner 'classif.cv_glmnet' on task 'candi_gene' (iter 1/5)
+INFO  [11:56:49.844] [mlr3] Applying learner 'classif.cv_glmnet' on task 'candi_gene' (iter 2/5)
+INFO  [11:56:50.115] [mlr3] Applying learner 'classif.cv_glmnet' on task 'candi_gene' (iter 3/5)
+INFO  [11:56:50.381] [mlr3] Applying learner 'classif.cv_glmnet' on task 'candi_gene' (iter 4/5)
+INFO  [11:56:50.644] [mlr3] Applying learner 'classif.cv_glmnet' on task 'candi_gene' (iter 5/5)
+INFO  [11:56:50.910] [mlr3] Finished benchmark
+INFO  [11:56:50.935] [bbotk] Result of batch 11:
+INFO  [11:56:50.937] [bbotk]  alpha classif.auc warnings errors runtime_learners
+INFO  [11:56:50.937] [bbotk]   0.05   0.7104677        0      0            1.318
+INFO  [11:56:50.937] [bbotk]                                 uhash
+INFO  [11:56:50.937] [bbotk]  2793286d-b655-4151-9a0d-38af686823c1
+INFO  [11:56:50.938] [bbotk] Evaluating 1 configuration(s)
+INFO  [11:56:50.961] [mlr3] Running benchmark with 5 resampling iterations
+INFO  [11:56:50.966] [mlr3] Applying learner 'classif.cv_glmnet' on task 'candi_gene' (iter 1/5)
+INFO  [11:56:51.185] [mlr3] Applying learner 'classif.cv_glmnet' on task 'candi_gene' (iter 2/5)
+INFO  [11:56:51.396] [mlr3] Applying learner 'classif.cv_glmnet' on task 'candi_gene' (iter 3/5)
+INFO  [11:56:51.619] [mlr3] Applying learner 'classif.cv_glmnet' on task 'candi_gene' (iter 4/5)
+INFO  [11:56:51.840] [mlr3] Applying learner 'classif.cv_glmnet' on task 'candi_gene' (iter 5/5)
+INFO  [11:56:52.417] [mlr3] Finished benchmark
+INFO  [11:56:52.442] [bbotk] Result of batch 12:
+INFO  [11:56:52.444] [bbotk]  alpha classif.auc warnings errors runtime_learners
+INFO  [11:56:52.444] [bbotk]   0.25   0.6583741        0      0            1.406
+INFO  [11:56:52.444] [bbotk]                                 uhash
+INFO  [11:56:52.444] [bbotk]  c22a7947-8c6d-423f-b6a9-718ac37d2116
+INFO  [11:56:52.445] [bbotk] Evaluating 1 configuration(s)
+INFO  [11:56:52.468] [mlr3] Running benchmark with 5 resampling iterations
+INFO  [11:56:52.473] [mlr3] Applying learner 'classif.cv_glmnet' on task 'candi_gene' (iter 1/5)
+INFO  [11:56:52.659] [mlr3] Applying learner 'classif.cv_glmnet' on task 'candi_gene' (iter 2/5)
+INFO  [11:56:52.838] [mlr3] Applying learner 'classif.cv_glmnet' on task 'candi_gene' (iter 3/5)
+INFO  [11:56:53.029] [mlr3] Applying learner 'classif.cv_glmnet' on task 'candi_gene' (iter 4/5)
+INFO  [11:56:53.212] [mlr3] Applying learner 'classif.cv_glmnet' on task 'candi_gene' (iter 5/5)
+INFO  [11:56:53.387] [mlr3] Finished benchmark
+INFO  [11:56:53.411] [bbotk] Result of batch 13:
+INFO  [11:56:53.413] [bbotk]  alpha classif.auc warnings errors runtime_learners
+INFO  [11:56:53.413] [bbotk]   0.65   0.6186194        0      0            0.872
+INFO  [11:56:53.413] [bbotk]                                 uhash
+INFO  [11:56:53.413] [bbotk]  16c21b95-2b5a-466a-abbf-99e9f7a5ec63
+INFO  [11:56:53.415] [bbotk] Evaluating 1 configuration(s)
+INFO  [11:56:53.437] [mlr3] Running benchmark with 5 resampling iterations
+INFO  [11:56:53.442] [mlr3] Applying learner 'classif.cv_glmnet' on task 'candi_gene' (iter 1/5)
+INFO  [11:56:53.627] [mlr3] Applying learner 'classif.cv_glmnet' on task 'candi_gene' (iter 2/5)
+INFO  [11:56:53.814] [mlr3] Applying learner 'classif.cv_glmnet' on task 'candi_gene' (iter 3/5)
+INFO  [11:56:54.002] [mlr3] Applying learner 'classif.cv_glmnet' on task 'candi_gene' (iter 4/5)
+INFO  [11:56:54.183] [mlr3] Applying learner 'classif.cv_glmnet' on task 'candi_gene' (iter 5/5)
+INFO  [11:56:54.358] [mlr3] Finished benchmark
+INFO  [11:56:54.382] [bbotk] Result of batch 14:
+INFO  [11:56:54.384] [bbotk]  alpha classif.auc warnings errors runtime_learners
+INFO  [11:56:54.384] [bbotk]   0.85   0.5725162        0      0            0.874
+INFO  [11:56:54.384] [bbotk]                                 uhash
+INFO  [11:56:54.384] [bbotk]  85cbd040-1265-4f96-b5d9-f37966e9d806
+INFO  [11:56:54.386] [bbotk] Evaluating 1 configuration(s)
+INFO  [11:56:54.408] [mlr3] Running benchmark with 5 resampling iterations
+INFO  [11:56:54.413] [mlr3] Applying learner 'classif.cv_glmnet' on task 'candi_gene' (iter 1/5)
+INFO  [11:56:54.604] [mlr3] Applying learner 'classif.cv_glmnet' on task 'candi_gene' (iter 2/5)
+INFO  [11:56:54.798] [mlr3] Applying learner 'classif.cv_glmnet' on task 'candi_gene' (iter 3/5)
+INFO  [11:56:54.992] [mlr3] Applying learner 'classif.cv_glmnet' on task 'candi_gene' (iter 4/5)
+INFO  [11:56:55.179] [mlr3] Applying learner 'classif.cv_glmnet' on task 'candi_gene' (iter 5/5)
+INFO  [11:56:55.362] [mlr3] Finished benchmark
+INFO  [11:56:55.387] [bbotk] Result of batch 15:
+INFO  [11:56:55.389] [bbotk]  alpha classif.auc warnings errors runtime_learners
+INFO  [11:56:55.389] [bbotk]    0.5   0.5648315        0      0            0.903
+INFO  [11:56:55.389] [bbotk]                                 uhash
+INFO  [11:56:55.389] [bbotk]  f8fabee6-d5c5-4c9b-be83-34ec7b707350
+INFO  [11:56:55.390] [bbotk] Evaluating 1 configuration(s)
+INFO  [11:56:55.413] [mlr3] Running benchmark with 5 resampling iterations
+INFO  [11:56:55.418] [mlr3] Applying learner 'classif.cv_glmnet' on task 'candi_gene' (iter 1/5)
+INFO  [11:56:55.606] [mlr3] Applying learner 'classif.cv_glmnet' on task 'candi_gene' (iter 2/5)
+INFO  [11:56:55.790] [mlr3] Applying learner 'classif.cv_glmnet' on task 'candi_gene' (iter 3/5)
+INFO  [11:56:55.975] [mlr3] Applying learner 'classif.cv_glmnet' on task 'candi_gene' (iter 4/5)
+INFO  [11:56:56.158] [mlr3] Applying learner 'classif.cv_glmnet' on task 'candi_gene' (iter 5/5)
+INFO  [11:56:56.345] [mlr3] Finished benchmark
+INFO  [11:56:56.370] [bbotk] Result of batch 16:
+INFO  [11:56:56.372] [bbotk]  alpha classif.auc warnings errors runtime_learners
+INFO  [11:56:56.372] [bbotk]    0.9   0.5333333        0      0            0.887
+INFO  [11:56:56.372] [bbotk]                                 uhash
+INFO  [11:56:56.372] [bbotk]  be962f22-3571-4b7b-942b-01f0ded2ff86
+INFO  [11:56:56.373] [bbotk] Evaluating 1 configuration(s)
+INFO  [11:56:56.396] [mlr3] Running benchmark with 5 resampling iterations
+INFO  [11:56:56.401] [mlr3] Applying learner 'classif.cv_glmnet' on task 'candi_gene' (iter 1/5)
+INFO  [11:56:56.595] [mlr3] Applying learner 'classif.cv_glmnet' on task 'candi_gene' (iter 2/5)
+INFO  [11:56:56.772] [mlr3] Applying learner 'classif.cv_glmnet' on task 'candi_gene' (iter 3/5)
+INFO  [11:56:56.959] [mlr3] Applying learner 'classif.cv_glmnet' on task 'candi_gene' (iter 4/5)
+INFO  [11:56:57.142] [mlr3] Applying learner 'classif.cv_glmnet' on task 'candi_gene' (iter 5/5)
+INFO  [11:56:57.314] [mlr3] Finished benchmark
+INFO  [11:56:57.340] [bbotk] Result of batch 17:
+INFO  [11:56:57.342] [bbotk]  alpha classif.auc warnings errors runtime_learners
+INFO  [11:56:57.342] [bbotk]   0.95   0.5704402        0      0            0.869
+INFO  [11:56:57.342] [bbotk]                                 uhash
+INFO  [11:56:57.342] [bbotk]  f6f4b1ca-b3f2-401a-9ecd-475b54f0794b
+INFO  [11:56:57.343] [bbotk] Evaluating 1 configuration(s)
+INFO  [11:56:57.367] [mlr3] Running benchmark with 5 resampling iterations
+INFO  [11:56:57.371] [mlr3] Applying learner 'classif.cv_glmnet' on task 'candi_gene' (iter 1/5)
+INFO  [11:56:57.557] [mlr3] Applying learner 'classif.cv_glmnet' on task 'candi_gene' (iter 2/5)
+INFO  [11:56:57.750] [mlr3] Applying learner 'classif.cv_glmnet' on task 'candi_gene' (iter 3/5)
+INFO  [11:56:57.942] [mlr3] Applying learner 'classif.cv_glmnet' on task 'candi_gene' (iter 4/5)
+INFO  [11:56:58.121] [mlr3] Applying learner 'classif.cv_glmnet' on task 'candi_gene' (iter 5/5)
+INFO  [11:56:58.297] [mlr3] Finished benchmark
+INFO  [11:56:58.324] [bbotk] Result of batch 18:
+INFO  [11:56:58.326] [bbotk]  alpha classif.auc warnings errors runtime_learners
+INFO  [11:56:58.326] [bbotk]   0.75   0.5710349        0      0            0.881
+INFO  [11:56:58.326] [bbotk]                                 uhash
+INFO  [11:56:58.326] [bbotk]  12c3c5cc-27f7-4de9-be57-5e01c8df05a4
+INFO  [11:56:58.327] [bbotk] Evaluating 1 configuration(s)
+INFO  [11:56:58.351] [mlr3] Running benchmark with 5 resampling iterations
+INFO  [11:56:58.355] [mlr3] Applying learner 'classif.cv_glmnet' on task 'candi_gene' (iter 1/5)
+INFO  [11:56:58.536] [mlr3] Applying learner 'classif.cv_glmnet' on task 'candi_gene' (iter 2/5)
+INFO  [11:56:58.728] [mlr3] Applying learner 'classif.cv_glmnet' on task 'candi_gene' (iter 3/5)
+INFO  [11:56:58.924] [mlr3] Applying learner 'classif.cv_glmnet' on task 'candi_gene' (iter 4/5)
+INFO  [11:56:59.111] [mlr3] Applying learner 'classif.cv_glmnet' on task 'candi_gene' (iter 5/5)
+INFO  [11:56:59.287] [mlr3] Finished benchmark
+INFO  [11:56:59.312] [bbotk] Result of batch 19:
+INFO  [11:56:59.314] [bbotk]  alpha classif.auc warnings errors runtime_learners
+INFO  [11:56:59.314] [bbotk]    0.6   0.5973634        0      0            0.889
+INFO  [11:56:59.314] [bbotk]                                 uhash
+INFO  [11:56:59.314] [bbotk]  ee1bb31f-5e35-4ebe-aced-999c2bf6a84f
+INFO  [11:56:59.315] [bbotk] Evaluating 1 configuration(s)
+INFO  [11:56:59.338] [mlr3] Running benchmark with 5 resampling iterations
+INFO  [11:56:59.343] [mlr3] Applying learner 'classif.cv_glmnet' on task 'candi_gene' (iter 1/5)
+INFO  [11:56:59.553] [mlr3] Applying learner 'classif.cv_glmnet' on task 'candi_gene' (iter 2/5)
+INFO  [11:56:59.762] [mlr3] Applying learner 'classif.cv_glmnet' on task 'candi_gene' (iter 3/5)
+INFO  [11:56:59.972] [mlr3] Applying learner 'classif.cv_glmnet' on task 'candi_gene' (iter 4/5)
+INFO  [11:57:00.177] [mlr3] Applying learner 'classif.cv_glmnet' on task 'candi_gene' (iter 5/5)
+INFO  [11:57:00.380] [mlr3] Finished benchmark
+INFO  [11:57:00.405] [bbotk] Result of batch 20:
+INFO  [11:57:00.407] [bbotk]  alpha classif.auc warnings errors runtime_learners
+INFO  [11:57:00.407] [bbotk]    0.3   0.5793478        0      0            0.994
+INFO  [11:57:00.407] [bbotk]                                 uhash
+INFO  [11:57:00.407] [bbotk]  46eab9b3-4840-4116-ab62-edca700eeebb
+INFO  [11:57:00.409] [bbotk] Evaluating 1 configuration(s)
+INFO  [11:57:00.432] [mlr3] Running benchmark with 5 resampling iterations
+INFO  [11:57:00.436] [mlr3] Applying learner 'classif.cv_glmnet' on task 'candi_gene' (iter 1/5)
+INFO  [11:57:00.628] [mlr3] Applying learner 'classif.cv_glmnet' on task 'candi_gene' (iter 2/5)
+INFO  [11:57:00.812] [mlr3] Applying learner 'classif.cv_glmnet' on task 'candi_gene' (iter 3/5)
+INFO  [11:57:01.001] [mlr3] Applying learner 'classif.cv_glmnet' on task 'candi_gene' (iter 4/5)
+INFO  [11:57:01.185] [mlr3] Applying learner 'classif.cv_glmnet' on task 'candi_gene' (iter 5/5)
+INFO  [11:57:01.367] [mlr3] Finished benchmark
+INFO  [11:57:01.392] [bbotk] Result of batch 21:
+INFO  [11:57:01.394] [bbotk]  alpha classif.auc warnings errors runtime_learners
+INFO  [11:57:01.394] [bbotk]    0.8   0.5423409        0      0            0.888
+INFO  [11:57:01.394] [bbotk]                                 uhash
+INFO  [11:57:01.394] [bbotk]  041d88a8-ef00-40ad-926f-8063acd0e1c2
+INFO  [11:57:01.399] [bbotk] Finished optimizing after 21 evaluation(s)
+INFO  [11:57:01.399] [bbotk] Result:
+INFO  [11:57:01.402] [bbotk]   alpha learner_param_vals x_domain classif.auc
+INFO  [11:57:01.402] [bbotk]  <char>             <list>   <list>       <num>
+INFO  [11:57:01.402] [bbotk]    0.05       c(7.8947....     0.05   0.7104677
